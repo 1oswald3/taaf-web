@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,10 +15,11 @@ body {
     flex-direction: row;
     /* flex-wrap: wrap; */
     background-color: rgb(255, 255, 255);
-    width: 70%;
+    width: 70vw;
+    height: 50vh;
     border-radius: 20px;
     justify-content: center;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 15px rgba(121, 8, 182, 0.7);
 
 }
 
@@ -28,6 +30,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 15px;
+    margin: 0;
 }
 
 form {
@@ -45,7 +48,7 @@ input {
     border: none;
     border-radius: 5px;
     background-color: rgb(244, 244, 243);
-    box-shadow: 0.2px 0.2px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0.2px 0.2px 5px rgba(121, 8, 182, 0.5);
     padding: 0 10px;
 } 
 
@@ -53,6 +56,7 @@ input {
     background-color: rgb(121, 8, 182);
     color: whitesmoke;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -60,7 +64,8 @@ input {
     border: none;
     border-radius: 90px 20px 20px 90px;
     text-align: center;
-    flex: 1;
+
+    margin: 0;
 }
 
 p {
@@ -68,13 +73,18 @@ p {
     text-align: center;
 }
   
+button {
+    width: 50%;
+    height: 30px;
+}
+
 .sign-in {
     background-color: rgb(121, 8, 182);
     color: whitesmoke;
     border: none;
     border-radius: 5px;
-    width: 120px;
-    height: 30px;
+    /* width: 120px;
+    height: 30px; */
     font-weight: bold;
     cursor: pointer;
     transition: all 1s;
@@ -96,8 +106,8 @@ p {
     border-radius: 5px;
     background-color: rgb(121, 8, 182);
     color: whitesmoke;
-    width: 120px;
-    height: 30px;
+    /* width: 120px;
+    height: 30px; */
     font-weight: bold;
     cursor: pointer;
     transition: all 1s;
