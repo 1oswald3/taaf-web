@@ -16,7 +16,7 @@ body {
     /* flex-wrap: wrap; */
     background-color: rgb(255, 255, 255);
     width: 70vw;
-    height: 50vh;
+    /* height: 50vh; */
     border-radius: 20px;
     justify-content: center;
     box-shadow: 2px 2px 15px rgba(121, 8, 182, 0.7);
